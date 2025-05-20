@@ -1,0 +1,50 @@
+@import "tailwindcss";
+body, button, a ,div {
+    cursor: none !important;
+  }
+
+  body {
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  
+  img {
+    pointer-events: none;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+
+  /* index.css or global CSS */
+body::-webkit-scrollbar {
+    display: none;
+  }
+  body {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+/* For WebKit browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f0f0f; /* dark background matching your theme */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #C27AFF; /* your purple accent */
+  border-radius: 10px;
+  border: 2px solid #0f0f0f; /* adds padding effect */
+  transition: background-color 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a061f7; /* slightly lighter purple on hover */
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #C27AFF #0f0f0f;
+}
