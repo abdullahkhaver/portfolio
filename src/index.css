@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@layer base {
+  .font-roboto {
+    font-family: 'Roboto', sans-serif;
+  }
+}
+
+@layer utilities {
+  .clip-hexagon {
+    clip-path: polygon(50% 0%, 95% 25%, 95% 75%, 50% 100%, 5% 75%, 5% 25%);
+  }
+  
+  .bg-grid {
+    background-image: 
+      linear-gradient(to right, rgba(70, 174, 98, 0.05) 1px, transparent 1px),
+      linear-gradient(to bottom, rgba(70, 174, 98, 0.05) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
