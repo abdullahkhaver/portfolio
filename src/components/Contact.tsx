@@ -1,4 +1,5 @@
-import { FC, useState } from "react"
+import type { FC } from "react"
+import {useState } from "react"
 import { motion } from "framer-motion"
 import { 
   Mail, 
@@ -8,7 +9,6 @@ import {
   Send, 
   MapPin, 
   MessageSquare,
-  Facebook,
   Instagram,
   Twitter,
   MessageCircle,

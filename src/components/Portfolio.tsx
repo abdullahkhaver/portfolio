@@ -1,4 +1,4 @@
-import { FC } from "react"
+import type{ FC } from "react"
 import { motion } from "framer-motion"
 import { ExternalLink, Github, Shield, Eye, Terminal, Lock } from "lucide-react"
 

@@ -1,4 +1,4 @@
-import { FC } from "react"
+import type { FC } from "react"
 import { motion } from "framer-motion"
 import { Shield, Code, Terminal, Palette, Zap, Target } from "lucide-react"
 
@@ -129,7 +129,7 @@ const About: FC = () => {
             transition={{ duration: 0.7 }}
             className="grid grid-cols-1 sm:grid-cols-2 gap-4 md:gap-6"
           >
-            {skills.map((skill, index) => (
+            {skills.map((skill) => (
               <motion.div
                 key={skill.title}
                 initial={{ opacity: 0, y: 20 }}

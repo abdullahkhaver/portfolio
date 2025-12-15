@@ -1,4 +1,4 @@
-import { FC } from "react"
+import type { FC } from "react"
 import { motion } from "framer-motion"
 import { Quote, Star, MessageSquare, Users } from "lucide-react"
 

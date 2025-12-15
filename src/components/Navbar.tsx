@@ -1,4 +1,5 @@
-import { FC, useState, useEffect } from "react";
+import type { FC } from "react";
+import {  useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X } from "lucide-react";
 import { Link as ScrollLink, Events, scroller } from "react-scroll";
